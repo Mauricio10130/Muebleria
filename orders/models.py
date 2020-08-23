@@ -80,7 +80,7 @@ class Order(models.Model):
 
 	def get_total(self):
 		return self.cart.total + self.shipping_total - decimal.Decimal(self.get_discount())
-
+ 
 	@property
 	def description(self):
 		return 'Compra por ({}) producto (s)'.format(
