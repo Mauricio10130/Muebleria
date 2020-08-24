@@ -26,7 +26,6 @@ SECRET_KEY = '15j8^^m14xitesvz(#@z$vlw5e**d@y7r--1bw+)5tq%m!0)4('
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
     'muebleria.azurewebsites.net',
 ]
 
